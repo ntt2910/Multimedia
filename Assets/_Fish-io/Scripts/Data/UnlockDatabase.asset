@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e86bdde767225b4b9fe6234a8d1b7a1, type: 3}
+  m_Name: UnlockDatabase
+  m_EditorClassIdentifier: 
+  unlockDataObjects:
+  - id: 1
+    isFish: 1
+    weaponType: 0
+    fishType: 1
+    unlockCondision: 5
+    fishPieceReward: 1
+    description: Move faster than other Fish
+  - id: 2
+    isFish: 1
+    weaponType: 0
+    fishType: 2
+    unlockCondision: 10
+    fishPieceReward: 3
+    description: Recover x2 Mana when eat Meat
+  - id: 3
+    isFish: 0
+    weaponType: 2
+    fishType: 0
+    unlockCondision: 10
+    fishPieceReward: 3
+    description: 
+  - id: 4
+    isFish: 1
+    weaponType: 0
+    fishType: 3
+    unlockCondision: 10
+    fishPieceReward: 3
+    description: Move faster than other Fish
+  - id: 5
+    isFish: 1
+    weaponType: 0
+    fishType: 4
+    unlockCondision: 15
+    fishPieceReward: 5
+    description: Kill an enemy will gain shield for 2 seconds
+  - id: 6
+    isFish: 0
+    weaponType: 7
+    fishType: 0
+    unlockCondision: 15
+    fishPieceReward: 5
+    description: 
+  - id: 7
+    isFish: 1
+    weaponType: 0
+    fishType: 5
+    unlockCondision: 20
+    fishPieceReward: 7
+    description: Laser shoot after kill an enemy
+  - id: 8
+    isFish: 1
+    weaponType: 0
+    fishType: 6
+    unlockCondision: 20
+    fishPieceReward: 7
+    description: Use Dash without Mana lost
+  - id: 9
+    isFish: 0
+    weaponType: 3
+    fishType: 0
+    unlockCondision: 20
+    fishPieceReward: 7
+    description: 
+  - id: 10
+    isFish: 1
+    weaponType: 0
+    fishType: 7
+    unlockCondision: 25
+    fishPieceReward: 9
+    description: Revive after once death
+  - id: 11
+    isFish: 1
+    weaponType: 0
+    fishType: 8
+    unlockCondision: 25
+    fishPieceReward: 9
+    description: Use Dash will leave a shuriken behind
+  - id: 12
+    isFish: 0
+    weaponType: 4
+    fishType: 0
+    unlockCondision: 25
+    fishPieceReward: 9
+    description: 
+  - id: 13
+    isFish: 1
+    weaponType: 0
+    fishType: 9
+    unlockCondision: 30
+    fishPieceReward: 10
+    description: Immune to attack from front
+  - id: 14
+    isFish: 0
+    weaponType: 6
+    fishType: 0
+    unlockCondision: 30
+    fishPieceReward: 10
+    description: 
+  - id: 15
+    isFish: 1
+    weaponType: 0
+    fishType: 10
+    unlockCondision: 35
+    fishPieceReward: 13
+    description: 
+  - id: 16
+    isFish: 1
+    weaponType: 0
+    fishType: 11
+    unlockCondision: 35
+    fishPieceReward: 13
+    description: Start game with 3 Fish Head
+  - id: 17
+    isFish: 0
+    weaponType: 0
+    fishType: 0
+    unlockCondision: 35
+    fishPieceReward: 13
+    description: 
+  - id: 18
+    isFish: 1
+    weaponType: 0
+    fishType: 11
+    unlockCondision: 40
+    fishPieceReward: 15
+    description: 
+  - id: 19
+    isFish: 1
+    weaponType: 0
+    fishType: 0
+    unlockCondision: 40
+    fishPieceReward: 15
+    description: 'Interrupts the target and traps them in place, preventing movement '
+  - id: 20
+    isFish: 0
+    weaponType: 5
+    fishType: 0
+    unlockCondision: 40
+    fishPieceReward: 15
+    description: 
+  - id: 21
+    isFish: 1
+    weaponType: 0
+    fishType: 17
+    unlockCondision: 40
+    fishPieceReward: 17
+    description: Move faster than other Fish while use Dash
+  - id: 22
+    isFish: 1
+    weaponType: 0
+    fishType: 13
+    unlockCondision: 45
+    fishPieceReward: 17
+    description: Throws a Boomerang, it stuns for a duration
+  - id: 23
+    isFish: 0
+    weaponType: 1
+    fishType: 0
+    unlockCondision: 45
+    fishPieceReward: 17
+    description: 
+  - id: 24
+    isFish: 1
+    weaponType: 0
+    fishType: 14
+    unlockCondision: 45
+    fishPieceReward: 19
+    description: Immune to attack while Hold Dash
+  - id: 25
+    isFish: 1
+    weaponType: 0
+    fishType: 19
+    unlockCondision: 50
+    fishPieceReward: 19
+    description: Immune to first 2 attack for each size
+  - id: 26
+    isFish: 0
+    weaponType: 8
+    fishType: 0
+    unlockCondision: 50
+    fishPieceReward: 19
+    description: 
+  - id: 27
+    isFish: 0
+    weaponType: 9
+    fishType: 0
+    unlockCondision: 50
+    fishPieceReward: 19
+    description: 

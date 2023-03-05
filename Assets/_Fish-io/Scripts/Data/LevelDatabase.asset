@@ -1,0 +1,5295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56429ef1d9dd49344a2f964f2be10ca1, type: 3}
+  m_Name: LevelDatabase
+  m_EditorClassIdentifier: 
+  levelDataObjects:
+  - level_ID: 1
+    levelObjets:
+    - level: 1
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 2
+    levelObjets:
+    - level: 2
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 15
+      - id: 2
+        spawnPercent: 35
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 5
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 0
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 15
+      - id: 13
+        spawnPercent: 15
+      - id: 14
+        spawnPercent: 15
+      - id: 15
+        spawnPercent: 15
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 3
+    levelObjets:
+    - level: 3
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 15
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 40
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 15
+      - id: 15
+        spawnPercent: 15
+      - id: 16
+        spawnPercent: 15
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 4
+    levelObjets:
+    - level: 4
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 30
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 35
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 5
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 20
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 5
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 5
+    levelObjets:
+    - level: 5
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 25
+      - id: 2
+        spawnPercent: 15
+      - id: 3
+        spawnPercent: 15
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 0
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 20
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 6
+    levelObjets:
+    - level: 6
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 10
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 25
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 10
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 10
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 10
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 7
+    levelObjets:
+    - level: 7
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 15
+      - id: 2
+        spawnPercent: 0
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 10
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 15
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 10
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 30
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 30
+      - id: 16
+        spawnPercent: 30
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 25
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 25
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 5
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 8
+    levelObjets:
+    - level: 8
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 10
+      - id: 3
+        spawnPercent: 15
+      - id: 4
+        spawnPercent: 10
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 10
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 10
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 10
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 20
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 9
+    levelObjets:
+    - level: 9
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 15
+      - id: 4
+        spawnPercent: 15
+      - id: 5
+        spawnPercent: 0
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 0
+      - id: 8
+        spawnPercent: 10
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 0
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 10
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 10
+      - id: 17
+        spawnPercent: 25
+      - id: 18
+        spawnPercent: 25
+      - id: 19
+        spawnPercent: 25
+      - id: 20
+        spawnPercent: 25
+      - id: 21
+        spawnPercent: 25
+      - id: 22
+        spawnPercent: 20
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 10
+    levelObjets:
+    - level: 10
+      startUnit: 10
+      spawnDelay: 2.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 10
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 15
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 30
+      - id: 11
+        spawnPercent: 10
+      - id: 12
+        spawnPercent: 10
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 10
+      - id: 15
+        spawnPercent: 10
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 5
+      - id: 18
+        spawnPercent: 20
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 5
+      - id: 21
+        spawnPercent: 20
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 11
+    levelObjets:
+    - level: 11
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 0
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 5
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 5
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 30
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 30
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 30
+      - id: 23
+        spawnPercent: 10
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 10
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 12
+    levelObjets:
+    - level: 12
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 20
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 5
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 20
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 20
+      - id: 23
+        spawnPercent: 5
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 5
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 13
+    levelObjets:
+    - level: 13
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 15
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 15
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 5
+      - id: 21
+        spawnPercent: 5
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 10
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 14
+    levelObjets:
+    - level: 14
+      startUnit: 10
+      spawnDelay: 2.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 10
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 20
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 15
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 2
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 20
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 25
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 25
+      - id: 21
+        spawnPercent: 25
+      - id: 22
+        spawnPercent: 30
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 10
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 15
+      - id: 27
+        spawnPercent: 20
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 15
+    levelObjets:
+    - level: 15
+      startUnit: 10
+      spawnDelay: 2
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 25
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 5
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 40
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 15
+      - id: 10
+        spawnPercent: 20
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 30
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 25
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 40
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 30
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 15
+      - id: 22
+        spawnPercent: 35
+      - id: 23
+        spawnPercent: 55
+      - id: 24
+        spawnPercent: 30
+      - id: 25
+        spawnPercent: 45
+      - id: 26
+        spawnPercent: 20
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 16
+    levelObjets:
+    - level: 16
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 17
+    levelObjets:
+    - level: 17
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 18
+    levelObjets:
+    - level: 18
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 19
+    levelObjets:
+    - level: 19
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 20
+    levelObjets:
+    - level: 20
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 21
+    levelObjets:
+    - level: 21
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 22
+    levelObjets:
+    - level: 22
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 23
+    levelObjets:
+    - level: 23
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 24
+    levelObjets:
+    - level: 24
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 25
+    levelObjets:
+    - level: 25
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 26
+    levelObjets:
+    - level: 26
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 27
+    levelObjets:
+    - level: 27
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 28
+    levelObjets:
+    - level: 28
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 29
+    levelObjets:
+    - level: 29
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 30
+    levelObjets:
+    - level: 30
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 31
+    levelObjets:
+    - level: 31
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 32
+    levelObjets:
+    - level: 32
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 15
+      - id: 2
+        spawnPercent: 35
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 5
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 0
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 15
+      - id: 13
+        spawnPercent: 15
+      - id: 14
+        spawnPercent: 15
+      - id: 15
+        spawnPercent: 15
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 33
+    levelObjets:
+    - level: 33
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 15
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 40
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 15
+      - id: 15
+        spawnPercent: 15
+      - id: 16
+        spawnPercent: 15
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 34
+    levelObjets:
+    - level: 34
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 30
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 35
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 5
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 5
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 20
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 5
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 35
+    levelObjets:
+    - level: 35
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 25
+      - id: 2
+        spawnPercent: 15
+      - id: 3
+        spawnPercent: 15
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 5
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 5
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 0
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 20
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 0
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 36
+    levelObjets:
+    - level: 36
+      startUnit: 10
+      spawnDelay: 2.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 10
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 15
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 30
+      - id: 11
+        spawnPercent: 10
+      - id: 12
+        spawnPercent: 10
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 10
+      - id: 15
+        spawnPercent: 10
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 5
+      - id: 18
+        spawnPercent: 20
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 5
+      - id: 21
+        spawnPercent: 20
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 37
+    levelObjets:
+    - level: 37
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 0
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 5
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 5
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 30
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 30
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 30
+      - id: 23
+        spawnPercent: 10
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 10
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 38
+    levelObjets:
+    - level: 38
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 20
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 5
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 20
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 20
+      - id: 23
+        spawnPercent: 5
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 5
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 39
+    levelObjets:
+    - level: 39
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 15
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 15
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 5
+      - id: 20
+        spawnPercent: 5
+      - id: 21
+        spawnPercent: 5
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 10
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 40
+    levelObjets:
+    - level: 15
+      startUnit: 10
+      spawnDelay: 2
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 25
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 5
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 40
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 15
+      - id: 10
+        spawnPercent: 20
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 30
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 25
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 40
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 30
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 15
+      - id: 22
+        spawnPercent: 35
+      - id: 23
+        spawnPercent: 55
+      - id: 24
+        spawnPercent: 30
+      - id: 25
+        spawnPercent: 45
+      - id: 26
+        spawnPercent: 20
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 41
+    levelObjets:
+    - level: 41
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 42
+    levelObjets:
+    - level: 42
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 43
+    levelObjets:
+    - level: 43
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 44
+    levelObjets:
+    - level: 44
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 45
+    levelObjets:
+    - level: 45
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 46
+    levelObjets:
+    - level: 46
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 47
+    levelObjets:
+    - level: 47
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 48
+    levelObjets:
+    - level: 48
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 49
+    levelObjets:
+    - level: 49
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 50
+    levelObjets:
+    - level: 50
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 51
+    levelObjets:
+    - level: 51
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 52
+    levelObjets:
+    - level: 52
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 53
+    levelObjets:
+    - level: 53
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 54
+    levelObjets:
+    - level: 54
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 55
+    levelObjets:
+    - level: 55
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 56
+    levelObjets:
+    - level: 56
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 57
+    levelObjets:
+    - level: 57
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 58
+    levelObjets:
+    - level: 58
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 59
+    levelObjets:
+    - level: 59
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 60
+    levelObjets:
+    - level: 60
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 61
+    levelObjets:
+    - level: 61
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 0
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 10
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 5
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 5
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 30
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 30
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 30
+      - id: 23
+        spawnPercent: 10
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 10
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 62
+    levelObjets:
+    - level: 62
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 20
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 5
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 20
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 20
+      - id: 23
+        spawnPercent: 5
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 5
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 63
+    levelObjets:
+    - level: 63
+      startUnit: 10
+      spawnDelay: 3
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 20
+      - id: 5
+        spawnPercent: 20
+      - id: 6
+        spawnPercent: 10
+      - id: 7
+        spawnPercent: 15
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 20
+      - id: 10
+        spawnPercent: 10
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 0
+      - id: 13
+        spawnPercent: 10
+      - id: 14
+        spawnPercent: 20
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 5
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 20
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 20
+      - id: 23
+        spawnPercent: 5
+      - id: 24
+        spawnPercent: 5
+      - id: 25
+        spawnPercent: 5
+      - id: 26
+        spawnPercent: 5
+      - id: 27
+        spawnPercent: 5
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 64
+    levelObjets:
+    - level: 64
+      startUnit: 10
+      spawnDelay: 2.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 5
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 5
+      - id: 4
+        spawnPercent: 10
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 20
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 10
+      - id: 10
+        spawnPercent: 15
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 2
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 20
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 25
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 25
+      - id: 21
+        spawnPercent: 25
+      - id: 22
+        spawnPercent: 30
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 10
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 15
+      - id: 27
+        spawnPercent: 20
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 65
+    levelObjets:
+    - level: 65
+      startUnit: 10
+      spawnDelay: 2
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 25
+      - id: 2
+        spawnPercent: 5
+      - id: 3
+        spawnPercent: 20
+      - id: 4
+        spawnPercent: 5
+      - id: 5
+        spawnPercent: 10
+      - id: 6
+        spawnPercent: 40
+      - id: 7
+        spawnPercent: 20
+      - id: 8
+        spawnPercent: 15
+      - id: 9
+        spawnPercent: 15
+      - id: 10
+        spawnPercent: 20
+      - id: 11
+        spawnPercent: 0
+      - id: 12
+        spawnPercent: 30
+      - id: 13
+        spawnPercent: 0
+      - id: 14
+        spawnPercent: 25
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 40
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 30
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 15
+      - id: 22
+        spawnPercent: 35
+      - id: 23
+        spawnPercent: 55
+      - id: 24
+        spawnPercent: 30
+      - id: 25
+        spawnPercent: 45
+      - id: 26
+        spawnPercent: 20
+      - id: 27
+        spawnPercent: 10
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 66
+    levelObjets:
+    - level: 66
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 67
+    levelObjets:
+    - level: 67
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 68
+    levelObjets:
+    - level: 68
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 69
+    levelObjets:
+    - level: 69
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 70
+    levelObjets:
+    - level: 70
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 71
+    levelObjets:
+    - level: 71
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 72
+    levelObjets:
+    - level: 72
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 73
+    levelObjets:
+    - level: 73
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 74
+    levelObjets:
+    - level: 74
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 75
+    levelObjets:
+    - level: 75
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 76
+    levelObjets:
+    - level: 26
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 77
+    levelObjets:
+    - level: 77
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 78
+    levelObjets:
+    - level: 78
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 79
+    levelObjets:
+    - level: 79
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0
+  - level_ID: 80
+    levelObjets:
+    - level: 80
+      startUnit: 10
+      spawnDelay: 1.5
+      fishSpawnDatas:
+      - id: 1
+        spawnPercent: 10
+      - id: 2
+        spawnPercent: 25
+      - id: 3
+        spawnPercent: 30
+      - id: 4
+        spawnPercent: 25
+      - id: 5
+        spawnPercent: 15
+      - id: 6
+        spawnPercent: 0
+      - id: 7
+        spawnPercent: 5
+      - id: 8
+        spawnPercent: 0
+      - id: 9
+        spawnPercent: 0
+      - id: 10
+        spawnPercent: 5
+      - id: 11
+        spawnPercent: 20
+      - id: 12
+        spawnPercent: 20
+      - id: 13
+        spawnPercent: 20
+      - id: 14
+        spawnPercent: 0
+      - id: 15
+        spawnPercent: 0
+      - id: 16
+        spawnPercent: 0
+      - id: 17
+        spawnPercent: 0
+      - id: 18
+        spawnPercent: 0
+      - id: 19
+        spawnPercent: 0
+      - id: 20
+        spawnPercent: 0
+      - id: 21
+        spawnPercent: 0
+      - id: 22
+        spawnPercent: 5
+      - id: 23
+        spawnPercent: 0
+      - id: 24
+        spawnPercent: 0
+      - id: 25
+        spawnPercent: 0
+      - id: 26
+        spawnPercent: 0
+      - id: 27
+        spawnPercent: 0
+      - id: 28
+        spawnPercent: 0
+      - id: 29
+        spawnPercent: 0
+      - id: 30
+        spawnPercent: 0

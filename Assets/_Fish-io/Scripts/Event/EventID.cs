@@ -1,0 +1,7 @@
+﻿public enum EventID
+{
+    NONE,
+    START_GAME,
+    BUY_PRODUCT_SUCCESS,
+    RESTORE_PURCHASE_SUCCESS
+}

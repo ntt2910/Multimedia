@@ -1,0 +1,386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d222086a84a598a4c959a67b041de923, type: 3}
+  m_Name: FishDatabase
+  m_EditorClassIdentifier: 
+  recoveryManaMeatConfig: 10
+  recoveryManaGreenPearConfig: 10
+  pointMeatConfig: 10
+  pointKillConfig: 50
+  fishObjectDatas:
+  - id: 1
+    isNewFish: 0
+    fishType: 4
+    fishName: 
+    prefab: {fileID: 4999219307030039869, guid: faf81e12cf3f31a44869fcd52fb6768f, type: 3}
+    prefabAI: {fileID: 2527678290263585451, guid: 396e0e673cda467499d323b50d690119, type: 3}
+    headFish: {fileID: 5308037495456098300, guid: d591f0b494adc7e4f9bedffafb2194bd, type: 3}
+    imageBorn: {fileID: 408851608482222657, guid: ccd70561a421e5e4b91d85fc9820aa5a, type: 3}
+    icon: {fileID: 21300000, guid: 66a0a185d0396e04dba36e5553c96555, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 2
+    isNewFish: 0
+    fishType: 1
+    fishName: 
+    prefab: {fileID: 2466749328311632996, guid: 1c2f472245bb66f47b3a72e1f929b2e0, type: 3}
+    prefabAI: {fileID: 3537402198898907038, guid: 9c90b7946fa5e5b48a79f033242932c3, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 8140720400774552882, guid: 3e48b1d56a1989048b6c2d68ed6e1132, type: 3}
+    icon: {fileID: 21300000, guid: 78dd120115c60f54ea65224f0f9eee6b, type: 3}
+    moveSpeed: 2
+    passiveType: 8
+    des: Create a trap preventing Fish movement while using Dash.
+  - id: 3
+    isNewFish: 1
+    fishType: 2
+    fishName: 
+    prefab: {fileID: 4404513127548580, guid: 40c3f97e439efa54eae6389a08e28bd3, type: 3}
+    prefabAI: {fileID: 5878843040892632381, guid: f555607ecb38f7343b108e6308e2fe80, type: 3}
+    headFish: {fileID: 5308037495456098300, guid: d591f0b494adc7e4f9bedffafb2194bd, type: 3}
+    imageBorn: {fileID: 1953576753969862609, guid: 774a942df0f57f547a5541b6d4b878b4, type: 3}
+    icon: {fileID: 21300000, guid: 1b86721247034f34c8a4590c311bb55c, type: 3}
+    moveSpeed: 3
+    passiveType: 0
+    des: Move faster than other Fish.
+  - id: 4
+    isNewFish: 0
+    fishType: 3
+    fishName: 
+    prefab: {fileID: 8467431474460827379, guid: f87507a7bbb894046ace09084b90864e, type: 3}
+    prefabAI: {fileID: 9017614250140777306, guid: d51ec6c867ed30e478d8c78c259f23d2, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 3124743963642246908, guid: cc2ab5fe55076d2419e8db49576ff379, type: 3}
+    icon: {fileID: 21300000, guid: 6e4384d341f3b91459ce1daa84ccd640, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 5
+    isNewFish: 1
+    fishType: 0
+    fishName: 
+    prefab: {fileID: 1956225338826567199, guid: 7d8462223c4728a448c4d456b1a4dc99, type: 3}
+    prefabAI: {fileID: 4394803299390972453, guid: 03b51cf0d4daf4840b3b10f91891ff09, type: 3}
+    headFish: {fileID: 5308037495456098300, guid: d591f0b494adc7e4f9bedffafb2194bd, type: 3}
+    imageBorn: {fileID: 181807613098725750, guid: 040c6feda6be3e34ba11bbd3de4ae0d7, type: 3}
+    icon: {fileID: 21300000, guid: a826c95193d1c6548961628c582f09da, type: 3}
+    moveSpeed: 2
+    passiveType: 10
+    des: Dash faster than normal.
+  - id: 6
+    isNewFish: 0
+    fishType: 5
+    fishName: 
+    prefab: {fileID: 2944055314454979264, guid: 7cfeadaf821890e45a2a83f3dcd79a72, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: 747cfbcd3e392eb4aaf54ca297e849fe, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 1192619706697087855, guid: 6a3dd32458706644ab95af973e1a99d1, type: 3}
+    icon: {fileID: 21300000, guid: ed0707b8f76de5f419311b8163ee1e03, type: 3}
+    moveSpeed: 2
+    passiveType: 12
+    des: Create a self illusion that copies the Fish movement.
+  - id: 7
+    isNewFish: 1
+    fishType: 6
+    fishName: 
+    prefab: {fileID: 2734424432472044862, guid: ede4bffff661bad4fb4ab09bbd69ce91, type: 3}
+    prefabAI: {fileID: 6694606155291451857, guid: 1849cef9b1336eb43aee93e9526a44de, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 5379104741147094070, guid: d1d92129b841f184fb5657f308c79fab, type: 3}
+    icon: {fileID: 21300000, guid: 0139854b7f6778b46a75b8ad218e316d, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 8
+    isNewFish: 1
+    fishType: 7
+    fishName: 
+    prefab: {fileID: 6902040164579118396, guid: 8606dab6035909d489316f2132372a03, type: 3}
+    prefabAI: {fileID: 4458904505103258141, guid: bfef0e85e49c1be4da0ebedf9623416e, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 5342668595495046225, guid: 0f0702def4fa40b4c9d2ced4e98308b4, type: 3}
+    icon: {fileID: 21300000, guid: eba01233012a94640a96374757895f52, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 9
+    isNewFish: 0
+    fishType: 8
+    fishName: 
+    prefab: {fileID: 6102831055291554517, guid: 5ef84eeec6fad56469602982ca91b48b, type: 3}
+    prefabAI: {fileID: 5669701447685729354, guid: 301d470487df49041829b22818a09a4c, type: 3}
+    headFish: {fileID: 5904810446514985760, guid: 9ab2d6788d45e5042aa3473d24804331, type: 3}
+    imageBorn: {fileID: 7906977564076129211, guid: 39f35f3f7c3d14b408836dfb75049c7a, type: 3}
+    icon: {fileID: 21300000, guid: 9fa2cc0e51023a24e9143871f504f16d, type: 3}
+    moveSpeed: 2
+    passiveType: 6
+    des: Revive once per battle after death.
+  - id: 10
+    isNewFish: 0
+    fishType: 9
+    fishName: 
+    prefab: {fileID: 7556323476845595263, guid: bb27dd5dce5e7a4459d17f7653b990d5, type: 3}
+    prefabAI: {fileID: 7585180944882627826, guid: c86ab81428785884dbf3c57d0fd76276, type: 3}
+    headFish: {fileID: 4758932981819411622, guid: 3ee51999e896922428b5fa571ea1cd07, type: 3}
+    imageBorn: {fileID: 3971252315189975606, guid: fc92c4452feaecb4490289c7e9499d8c, type: 3}
+    icon: {fileID: 21300000, guid: 0b11bee378d7a2848aa6ab6e2da5dda6, type: 3}
+    moveSpeed: 2
+    passiveType: 5
+    des: Use Dash will leave a shuriken behind.
+  - id: 11
+    isNewFish: 0
+    fishType: 10
+    fishName: 
+    prefab: {fileID: 2761113165340235553, guid: c7dfb196ce56b3d4fb92b146ddf23938, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: f700243ddc04eee4bbb812f2e7ca9f1d, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 11221604618953743, guid: 94ad2af89e12806488407c001e250fba, type: 3}
+    icon: {fileID: 21300000, guid: 05ad052c539bdc341bdf41c3bb44bc8c, type: 3}
+    moveSpeed: 2
+    passiveType: 15
+    des: Start game with 3 Fish Head.
+  - id: 12
+    isNewFish: 0
+    fishType: 11
+    fishName: 
+    prefab: {fileID: 6889151618902366097, guid: 37fd3995e8fcccb48accd2329ba956b5, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: a5bb34b754219aa46b4045137b1773bd, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 1149841559343640431, guid: ed1811db450e9134ba5cda2efcaacbff, type: 3}
+    icon: {fileID: 21300000, guid: 0b5e8c3b34f03fa4f9c8947fafa8c98d, type: 3}
+    moveSpeed: 2
+    passiveType: 4
+    des: Gain a shield for 2 seconds after killing an enemy.
+  - id: 13
+    isNewFish: 1
+    fishType: 12
+    fishName: 
+    prefab: {fileID: 6772968100249556809, guid: 34cd3e657a4144e42b1c2ecfe2ac38c0, type: 3}
+    prefabAI: {fileID: 7622604867102018270, guid: 6166c8b53ee38134a9441c897e7d148b, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 2484227525419826890, guid: 3b0f0c7fa2457b54a9e531388a7569d9, type: 3}
+    icon: {fileID: 21300000, guid: 15939c3f2776dd244a9d4cd9a3fb0a12, type: 3}
+    moveSpeed: 2
+    passiveType: 11
+    des: Immune to attack while Hold Dash
+  - id: 14
+    isNewFish: 0
+    fishType: 13
+    fishName: 
+    prefab: {fileID: 4593485719563307042, guid: 11ea6f23655822647a2fd4a94f61f2fe, type: 3}
+    prefabAI: {fileID: 683880824208146996, guid: 61ff4802f3744eb449ebed6be1af3116, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 157128756559705127, guid: 63034cde5eeef6f47bd0756c0d552709, type: 3}
+    icon: {fileID: 21300000, guid: 8d85121f65df987489d70ab64983af8c, type: 3}
+    moveSpeed: 2
+    passiveType: 10
+    des: Dash faster than normal.
+  - id: 15
+    isNewFish: 0
+    fishType: 14
+    fishName: 
+    prefab: {fileID: 1251166923661067899, guid: 7d53b35cd42064d498bf38e83cc44128, type: 3}
+    prefabAI: {fileID: 4300152575415343881, guid: e2d5facfa462dce4ca74469df3cfb740, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 3943115985275749947, guid: e04163b3f8052624fa085b475248712a, type: 3}
+    icon: {fileID: 21300000, guid: 58cf92b7ceaeb4f46918f1b73370c31b, type: 3}
+    moveSpeed: 2
+    passiveType: 7
+    des: Immune to front attack.
+  - id: 16
+    isNewFish: 0
+    fishType: 15
+    fishName: 
+    prefab: {fileID: 6964161573172972516, guid: 8f009194263a4554fbf4efd4457cec09, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: 98a63d8ff17d50340b2413d3aab8658a, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 6576741005382405508, guid: 116a891668492154a9c73b8c58cd14ad, type: 3}
+    icon: {fileID: 21300000, guid: 67e4ad36f22fa544994bf80ab153d56a, type: 3}
+    moveSpeed: 2
+    passiveType: 9
+    des: Throw a Boomerang that stuns the target.
+  - id: 17
+    isNewFish: 0
+    fishType: 16
+    fishName: 
+    prefab: {fileID: 6528827161556136341, guid: 0533fbed65af35c488c36ee52cb52434, type: 3}
+    prefabAI: {fileID: 2079822107047406034, guid: d9b3d74c9caff3546af4d65adb81140a, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 4954229909534229638, guid: 0367cd66e663dbd4b80d8d776723986a, type: 3}
+    icon: {fileID: 21300000, guid: 361a7702e52ce1644b11276bd066b836, type: 3}
+    moveSpeed: 2
+    passiveType: 4
+    des: Gain a shield for 2 seconds after killing an enemy.
+  - id: 18
+    isNewFish: 0
+    fishType: 17
+    fishName: 
+    prefab: {fileID: 1973952076747543620, guid: a3659f5df582d3f4ab203f5d6cc38e52, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: cb6278cee97c05f40bbb3533166ac91e, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 5400946715244032536, guid: c6e89853442b9ad49ac9eb01611dc7a8, type: 3}
+    icon: {fileID: 21300000, guid: 0c48351906132e940b5199df7383e7c0, type: 3}
+    moveSpeed: 2
+    passiveType: 1
+    des: Shoot a laser after killing an enemy.
+  - id: 19
+    isNewFish: 1
+    fishType: 18
+    fishName: 
+    prefab: {fileID: 1380200068765026574, guid: 9924470467e2aa641b4d6026825770d9, type: 3}
+    prefabAI: {fileID: 8658805536640111332, guid: 7ff9e15298982cf4aaeaea0ab872d715, type: 3}
+    headFish: {fileID: 5308037495456098300, guid: d591f0b494adc7e4f9bedffafb2194bd, type: 3}
+    imageBorn: {fileID: 1828271693306932087, guid: 4adc0b836dc9ec34ba0c093758608967, type: 3}
+    icon: {fileID: 21300000, guid: 1ab1909dbccbe7f4ba992e75dbd72607, type: 3}
+    moveSpeed: 2
+    passiveType: 3
+    des: Use Dash without losing Mana after eating Sushi.
+  - id: 20
+    isNewFish: 0
+    fishType: 19
+    fishName: 
+    prefab: {fileID: 4557346911881932567, guid: b443507a8366d8249ad0c40dbdb3ca36, type: 3}
+    prefabAI: {fileID: 4188510090849454661, guid: dbaadce52897ab8478b87db4c5552c2e, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 6745664996073959104, guid: 355589f81ea25ff41af5ffc91d95c2f8, type: 3}
+    icon: {fileID: 21300000, guid: 7cecf678cb5c14b4297e6087333f9e98, type: 3}
+    moveSpeed: 2
+    passiveType: 2
+    des: Recover x2 Mana when eat a Sushi.
+  - id: 21
+    isNewFish: 0
+    fishType: 20
+    fishName: 
+    prefab: {fileID: 2223854153360315900, guid: f3d38d333983f2d4da1093432b9e5bc7, type: 3}
+    prefabAI: {fileID: 4479021082468795179, guid: f75abe6f91f5ae947aae382ea356e874, type: 3}
+    headFish: {fileID: 7481294642277987002, guid: 62843f81033f7db4fa0194a6b28e5237, type: 3}
+    imageBorn: {fileID: 8297022206918845095, guid: a3deb62aca83a194e8c650cc42bf4412, type: 3}
+    icon: {fileID: 21300000, guid: 61b5343e1820a384eb2f5ebeb7fbeeef, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 22
+    isNewFish: 0
+    fishType: 21
+    fishName: 
+    prefab: {fileID: 2186270018701443379, guid: 364b21da6211aae48bae23f24ae3cbde, type: 3}
+    prefabAI: {fileID: 3903012098675959307, guid: 1f9fb5ef454c5f6448732ac03aa6f658, type: 3}
+    headFish: {fileID: 4731588991727285856, guid: 0bf5fe825ab39a347a08dab83b376f05, type: 3}
+    imageBorn: {fileID: 6143678253011457002, guid: 39cffd4988975414689a3f20817ddcbc, type: 3}
+    icon: {fileID: 21300000, guid: 3b8c8ef64a1333c4cb4bd7e5ffcbab93, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 23
+    isNewFish: 1
+    fishType: 22
+    fishName: 
+    prefab: {fileID: 1594367838118441687, guid: 060025f65c5faec42b1e5dee0a53d0f7, type: 3}
+    prefabAI: {fileID: 7095751228999725997, guid: f29845ebdada9f84abc82520f330c381, type: 3}
+    headFish: {fileID: 7439178837505119498, guid: a9e3331336f76d94ab9f5d9dd88ad83a, type: 3}
+    imageBorn: {fileID: 1268151552119821843, guid: c572316acf23cac4fb44fe45cb797806, type: 3}
+    icon: {fileID: 21300000, guid: d9145bbb21b43484096ba36fe3e9c62d, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 24
+    isNewFish: 1
+    fishType: 23
+    fishName: 
+    prefab: {fileID: 1138581503209211622, guid: 33be0e9ce3c90ab478e54504519507d4, type: 3}
+    prefabAI: {fileID: 4505712088779949109, guid: 755e299246817644c9ec43597ab2f2e2, type: 3}
+    headFish: {fileID: 3268851984761829924, guid: da2a8716d818adc458e3b316f62b461a, type: 3}
+    imageBorn: {fileID: 7997855364491473891, guid: 82e003e9f7837f84f94d226fe9fa8735, type: 3}
+    icon: {fileID: 21300000, guid: 9ea8ed64e221d1e41bf2ebdd85adb820, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 25
+    isNewFish: 1
+    fishType: 24
+    fishName: 
+    prefab: {fileID: 6401352279101238075, guid: 834a3d42ce2b7a943b7891c3153861d1, type: 3}
+    prefabAI: {fileID: 1062255440901289898, guid: 97b5f6e2779c84b48bf75ad0dd2930d6, type: 3}
+    headFish: {fileID: 4758932981819411622, guid: 3ee51999e896922428b5fa571ea1cd07, type: 3}
+    imageBorn: {fileID: 5390548170454401773, guid: 5b7fb6a9d2e1d0b409f4e681d3e8e9e0, type: 3}
+    icon: {fileID: 21300000, guid: ee54a096ef62d7b40bd036424d073f5c, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 26
+    isNewFish: 1
+    fishType: 25
+    fishName: 
+    prefab: {fileID: 7987285566667853411, guid: 073232441f49e3642bcff3b58b01f6f5, type: 3}
+    prefabAI: {fileID: 1558515007816962653, guid: d4d62f28b37d25b498bbea1242b135ac, type: 3}
+    headFish: {fileID: 5308037495456098300, guid: d591f0b494adc7e4f9bedffafb2194bd, type: 3}
+    imageBorn: {fileID: 6049309649516128229, guid: 86c9569c60e90c946b56b1bcf39f7a63, type: 3}
+    icon: {fileID: 21300000, guid: 56edf21167a961042adc3c4c4fac6a57, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 27
+    isNewFish: 1
+    fishType: 26
+    fishName: 
+    prefab: {fileID: 1569688923909183709, guid: bc8168a4c773efa41acfb37aaf85667b, type: 3}
+    prefabAI: {fileID: 9010527755173997895, guid: f97199dc37999ad498b2f8df834fb48e, type: 3}
+    headFish: {fileID: 1803715016128428842, guid: 87d0357b738180149ba45b3b7421e333, type: 3}
+    imageBorn: {fileID: 5982035623500676480, guid: a42a2be6fe33ba24aa9d48802486d613, type: 3}
+    icon: {fileID: 21300000, guid: 2c763c84b58919b4b94c6d820d384832, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 28
+    isNewFish: 1
+    fishType: 27
+    fishName: 
+    prefab: {fileID: 4316168742589421346, guid: addd68928c2567d48a7718e66e526789, type: 3}
+    prefabAI: {fileID: 7481968877426733487, guid: ef72478310abc3144a47b3695813fce6, type: 3}
+    headFish: {fileID: 6131776130449052900, guid: 1e25a74ff8241904caf5b866b6db5950, type: 3}
+    imageBorn: {fileID: 8364875532695447657, guid: 9dd0dbb4cace4bd44b2a4d2ff65b8c0a, type: 3}
+    icon: {fileID: 21300000, guid: 6021c8d441b82674c86a48e6db9792f2, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 29
+    isNewFish: 0
+    fishType: 28
+    fishName: 
+    prefab: {fileID: 1916155313261442846, guid: 76939dabca59fa6439639d7c759a726b, type: 3}
+    prefabAI: {fileID: 5542066496144391841, guid: d380bf04c29682943850d56cf2a7fb69, type: 3}
+    headFish: {fileID: 2736101044711141602, guid: 2dc5b0293f4ad5d49a621b569b71ef2d, type: 3}
+    imageBorn: {fileID: 8078763459899285517, guid: 5abd4d40d0a517f40ade23f62127eecf, type: 3}
+    icon: {fileID: 21300000, guid: d5b0918951c5eb04ba2bf071333778ca, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  - id: 30
+    isNewFish: 0
+    fishType: 29
+    fishName: 
+    prefab: {fileID: 7451634278066717488, guid: 65bec700db5ec5f46b0132135cfe9fb7, type: 3}
+    prefabAI: {fileID: 6563145676592320104, guid: c0ce5cc63c14db34ba209ecef0e6450d, type: 3}
+    headFish: {fileID: 5904810446514985760, guid: 9ab2d6788d45e5042aa3473d24804331, type: 3}
+    imageBorn: {fileID: 8602806253259835903, guid: 719d3f908969d0b4da2eb9adb6ea0bc5, type: 3}
+    icon: {fileID: 21300000, guid: 02fca7ca7a4b18f4baf35db736284d2e, type: 3}
+    moveSpeed: 2
+    passiveType: 0
+    des: 
+  fishConfigDataLevel:
+  - level: 1
+    conditionLevel: 3
+  - level: 2
+    conditionLevel: 5
+  - level: 3
+    conditionLevel: 7

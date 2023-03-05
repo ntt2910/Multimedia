@@ -1,0 +1,855 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2454dea8eb03f31429bc340519bf6a6e, type: 3}
+  m_Name: FishAIDatabase
+  m_EditorClassIdentifier: 
+  fishAIDataObjects:
+  - id: 1
+    fishType: 0
+    fishAIData:
+      inRange:
+        attack: 0
+        percentAttackUser: 0
+        percentAttackOtherEnemy: 0
+        percentEat: 0
+        time: 0
+        moveSpeed: 130
+        percentEvade: 15
+        percentCounter: 10
+        timeMove: 5
+        percentDash: 20
+        percentHoldDash: 15
+        dashTime: 2
+      outRange:
+        chase: 50
+        percentChaseUser: 0
+        percentChaseOtherEnemy: 20
+        timeChase: 2
+        moveSpeed: 130
+        timeMove: 5
+        dashSpeed: 20
+        percentHoldDash: 15
+        timeDash: 2
+        percentAttack: 0
+        timeAttack: 0
+  - id: 2
+    fishType: 1
+    fishAIData:
+      inRange:
+        attack: 0
+        percentAttackUser: 0
+        percentAttackOtherEnemy: 0
+        percentEat: 0
+        time: 0
+        moveSpeed: 100
+        percentEvade: 25
+        percentCounter: 20
+        timeMove: 5
+        percentDash: 20
+        percentHoldDash: 15
+        dashTime: 2
+      outRange:
+        chase: 50
+        percentChaseUser: 0
+        percentChaseOtherEnemy: 20
+        timeChase: 2
+        moveSpeed: 130
+        timeMove: 5
+        dashSpeed: 20
+        percentHoldDash: 15
+        timeDash: 2
+        percentAttack: 0
+        timeAttack: 0
+  - id: 3
+    fishType: 2
+    fishAIData:
+      inRange:
+        attack: 10
+        percentAttackUser: 20
+        percentAttackOtherEnemy: 50
+        percentEat: 0
+        time: 2
+        moveSpeed: 100
+        percentEvade: 25
+        percentCounter: 20
+        timeMove: 5
+        percentDash: 40
+        percentHoldDash: 15
+        dashTime: 2
+      outRange:
+        chase: 10
+        percentChaseUser: 20
+        percentChaseOtherEnemy: 50
+        timeChase: 3
+        moveSpeed: 100
+        timeMove: 5
+        dashSpeed: 40
+        percentHoldDash: 15
+        timeDash: 2
+        percentAttack: 10
+        timeAttack: 2
+  - id: 4
+    fishType: 3
+    fishAIData:
+      inRange:
+        attack: 20
+        percentAttackUser: 25
+        percentAttackOtherEnemy: 45
+        percentEat: 10
+        time: 3
+        moveSpeed: 90
+        percentEvade: 25
+        percentCounter: 25
+        timeMove: 5
+        percentDash: 40
+        percentHoldDash: 15
+        dashTime: 2
+      outRange:
+        chase: 20
+        percentChaseUser: 25
+        percentChaseOtherEnemy: 45
+        timeChase: 2
+        moveSpeed: 90
+        timeMove: 5
+        dashSpeed: 40
+        percentHoldDash: 15
+        timeDash: 2
+        percentAttack: 20
+        timeAttack: 3
+  - id: 5
+    fishType: 4
+    fishAIData:
+      inRange:
+        attack: 30
+        percentAttackUser: 30
+        percentAttackOtherEnemy: 40
+        percentEat: 20
+        time: 3
+        moveSpeed: 80
+        percentEvade: 25
+        percentCounter: 20
+        timeMove: 4
+        percentDash: 40
+        percentHoldDash: 15
+        dashTime: 3
+      outRange:
+        chase: 30
+        percentChaseUser: 30
+        percentChaseOtherEnemy: 40
+        timeChase: 2
+        moveSpeed: 80
+        timeMove: 4
+        dashSpeed: 40
+        percentHoldDash: 15
+        timeDash: 3
+        percentAttack: 30
+        timeAttack: 3
+  - id: 6
+    fishType: 5
+    fishAIData:
+      inRange:
+        attack: 50
+        percentAttackUser: 35
+        percentAttackOtherEnemy: 35
+        percentEat: 30
+        time: 4
+        moveSpeed: 70
+        percentEvade: 30
+        percentCounter: 20
+        timeMove: 3
+        percentDash: 30
+        percentHoldDash: 20
+        dashTime: 3
+      outRange:
+        chase: 40
+        percentChaseUser: 35
+        percentChaseOtherEnemy: 35
+        timeChase: 3
+        moveSpeed: 70
+        timeMove: 3
+        dashSpeed: 30
+        percentHoldDash: 20
+        timeDash: 3
+        percentAttack: 50
+        timeAttack: 4
+  - id: 7
+    fishType: 6
+    fishAIData:
+      inRange:
+        attack: 75
+        percentAttackUser: 40
+        percentAttackOtherEnemy: 30
+        percentEat: 40
+        time: 4
+        moveSpeed: 40
+        percentEvade: 30
+        percentCounter: 30
+        timeMove: 3
+        percentDash: 35
+        percentHoldDash: 25
+        dashTime: 3
+      outRange:
+        chase: 50
+        percentChaseUser: 40
+        percentChaseOtherEnemy: 30
+        timeChase: 3
+        moveSpeed: 40
+        timeMove: 3
+        dashSpeed: 35
+        percentHoldDash: 25
+        timeDash: 3
+        percentAttack: 75
+        timeAttack: 4
+  - id: 8
+    fishType: 7
+    fishAIData:
+      inRange:
+        attack: 80
+        percentAttackUser: 45
+        percentAttackOtherEnemy: 25
+        percentEat: 50
+        time: 4
+        moveSpeed: 40
+        percentEvade: 35
+        percentCounter: 35
+        timeMove: 3
+        percentDash: 30
+        percentHoldDash: 300
+        dashTime: 3
+      outRange:
+        chase: 60
+        percentChaseUser: 45
+        percentChaseOtherEnemy: 25
+        timeChase: 4
+        moveSpeed: 40
+        timeMove: 3
+        dashSpeed: 30
+        percentHoldDash: 30
+        timeDash: 3
+        percentAttack: 80
+        timeAttack: 4
+  - id: 9
+    fishType: 8
+    fishAIData:
+      inRange:
+        attack: 90
+        percentAttackUser: 50
+        percentAttackOtherEnemy: 20
+        percentEat: 60
+        time: 5
+        moveSpeed: 20
+        percentEvade: 35
+        percentCounter: 40
+        timeMove: 3
+        percentDash: 40
+        percentHoldDash: 35
+        dashTime: 2
+      outRange:
+        chase: 70
+        percentChaseUser: 50
+        percentChaseOtherEnemy: 20
+        timeChase: 5
+        moveSpeed: 20
+        timeMove: 3
+        dashSpeed: 40
+        percentHoldDash: 35
+        timeDash: 2
+        percentAttack: 90
+        timeAttack: 5
+  - id: 10
+    fishType: 9
+    fishAIData:
+      inRange:
+        attack: 100
+        percentAttackUser: 55
+        percentAttackOtherEnemy: 15
+        percentEat: 70
+        time: 5
+        moveSpeed: 20
+        percentEvade: 40
+        percentCounter: 45
+        timeMove: 2
+        percentDash: 30
+        percentHoldDash: 40
+        dashTime: 2
+      outRange:
+        chase: 80
+        percentChaseUser: 55
+        percentChaseOtherEnemy: 15
+        timeChase: 5
+        moveSpeed: 20
+        timeMove: 2
+        dashSpeed: 30
+        percentHoldDash: 40
+        timeDash: 2
+        percentAttack: 100
+        timeAttack: 5
+  - id: 11
+    fishType: 10
+    fishAIData:
+      inRange:
+        attack: 20
+        percentAttackUser: 25
+        percentAttackOtherEnemy: 50
+        percentEat: 20
+        time: 4
+        moveSpeed: 65
+        percentEvade: 10
+        percentCounter: 5
+        timeMove: 10
+        percentDash: 15
+        percentHoldDash: 15
+        dashTime: 5
+      outRange:
+        chase: 30
+        percentChaseUser: 5
+        percentChaseOtherEnemy: 60
+        timeChase: 3
+        moveSpeed: 100
+        timeMove: 6
+        dashSpeed: 10
+        percentHoldDash: 1
+        timeDash: 5
+        percentAttack: 5
+        timeAttack: 4
+  - id: 12
+    fishType: 11
+    fishAIData:
+      inRange:
+        attack: 25
+        percentAttackUser: 20
+        percentAttackOtherEnemy: 60
+        percentEat: 10
+        time: 2
+        moveSpeed: 60
+        percentEvade: 5
+        percentCounter: 10
+        timeMove: 6
+        percentDash: 20
+        percentHoldDash: 20
+        dashTime: 4
+      outRange:
+        chase: 50
+        percentChaseUser: 0
+        percentChaseOtherEnemy: 15
+        timeChase: 5
+        moveSpeed: 120
+        timeMove: 8
+        dashSpeed: 15
+        percentHoldDash: 5
+        timeDash: 2
+        percentAttack: 10
+        timeAttack: 2
+  - id: 13
+    fishType: 12
+    fishAIData:
+      inRange:
+        attack: 10
+        percentAttackUser: 15
+        percentAttackOtherEnemy: 15
+        percentEat: 5
+        time: 3
+        moveSpeed: 75
+        percentEvade: 30
+        percentCounter: 5
+        timeMove: 8
+        percentDash: 10
+        percentHoldDash: 5
+        dashTime: 2
+      outRange:
+        chase: 45
+        percentChaseUser: 15
+        percentChaseOtherEnemy: 30
+        timeChase: 7
+        moveSpeed: 90
+        timeMove: 9
+        dashSpeed: 60
+        percentHoldDash: 10
+        timeDash: 3
+        percentAttack: 0
+        timeAttack: 0
+  - id: 14
+    fishType: 13
+    fishAIData:
+      inRange:
+        attack: 5
+        percentAttackUser: 5
+        percentAttackOtherEnemy: 5
+        percentEat: 30
+        time: 5
+        moveSpeed: 40
+        percentEvade: 15
+        percentCounter: 15
+        timeMove: 7
+        percentDash: 5
+        percentHoldDash: 10
+        dashTime: 3
+      outRange:
+        chase: 20
+        percentChaseUser: 25
+        percentChaseOtherEnemy: 20
+        timeChase: 4
+        moveSpeed: 85
+        timeMove: 10
+        dashSpeed: 80
+        percentHoldDash: 0
+        timeDash: 1
+        percentAttack: 20
+        timeAttack: 7
+  - id: 15
+    fishType: 14
+    fishAIData:
+      inRange:
+        attack: 5
+        percentAttackUser: 10
+        percentAttackOtherEnemy: 5
+        percentEat: 80
+        time: 6
+        moveSpeed: 5
+        percentEvade: 10
+        percentCounter: 0
+        timeMove: 9
+        percentDash: 25
+        percentHoldDash: 0
+        dashTime: 1
+      outRange:
+        chase: 85
+        percentChaseUser: 0
+        percentChaseOtherEnemy: 90
+        timeChase: 3
+        moveSpeed: 110
+        timeMove: 12
+        dashSpeed: 40
+        percentHoldDash: 40
+        timeDash: 5
+        percentAttack: 15
+        timeAttack: 6
+  - id: 16
+    fishType: 15
+    fishAIData:
+      inRange:
+        attack: 35
+        percentAttackUser: 10
+        percentAttackOtherEnemy: 70
+        percentEat: 50
+        time: 8
+        moveSpeed: 80
+        percentEvade: 5
+        percentCounter: 35
+        timeMove: 5
+        percentDash: 40
+        percentHoldDash: 55
+        dashTime: 4
+      outRange:
+        chase: 20
+        percentChaseUser: 10
+        percentChaseOtherEnemy: 45
+        timeChase: 4
+        moveSpeed: 90
+        timeMove: 4
+        dashSpeed: 30
+        percentHoldDash: 20
+        timeDash: 3
+        percentAttack: 30
+        timeAttack: 3
+  - id: 17
+    fishType: 16
+    fishAIData:
+      inRange:
+        attack: 35
+        percentAttackUser: 30
+        percentAttackOtherEnemy: 45
+        percentEat: 100
+        time: 5
+        moveSpeed: 65
+        percentEvade: 5
+        percentCounter: 65
+        timeMove: 2
+        percentDash: 20
+        percentHoldDash: 0
+        dashTime: 0
+      outRange:
+        chase: 85
+        percentChaseUser: 55
+        percentChaseOtherEnemy: 45
+        timeChase: 5
+        moveSpeed: 20
+        timeMove: 8
+        dashSpeed: 60
+        percentHoldDash: 5
+        timeDash: 4
+        percentAttack: 50
+        timeAttack: 4
+  - id: 18
+    fishType: 17
+    fishAIData:
+      inRange:
+        attack: 25
+        percentAttackUser: 60
+        percentAttackOtherEnemy: 20
+        percentEat: 10
+        time: 4
+        moveSpeed: 100
+        percentEvade: 90
+        percentCounter: 25
+        timeMove: 7
+        percentDash: 10
+        percentHoldDash: 20
+        dashTime: 4
+      outRange:
+        chase: 90
+        percentChaseUser: 30
+        percentChaseOtherEnemy: 80
+        timeChase: 4
+        moveSpeed: 70
+        timeMove: 4
+        dashSpeed: 20
+        percentHoldDash: 100
+        timeDash: 3
+        percentAttack: 10
+        timeAttack: 8
+  - id: 19
+    fishType: 18
+    fishAIData:
+      inRange:
+        attack: 50
+        percentAttackUser: 20
+        percentAttackOtherEnemy: 60
+        percentEat: 45
+        time: 5
+        moveSpeed: 40
+        percentEvade: 50
+        percentCounter: 20
+        timeMove: 4
+        percentDash: 5
+        percentHoldDash: 70
+        dashTime: 3
+      outRange:
+        chase: 150
+        percentChaseUser: 50
+        percentChaseOtherEnemy: 10
+        timeChase: 6
+        moveSpeed: 20
+        timeMove: 6
+        dashSpeed: 10
+        percentHoldDash: 5
+        timeDash: 3
+        percentAttack: 50
+        timeAttack: 2
+  - id: 20
+    fishType: 19
+    fishAIData:
+      inRange:
+        attack: 45
+        percentAttackUser: 15
+        percentAttackOtherEnemy: 30
+        percentEat: 150
+        time: 6
+        moveSpeed: 130
+        percentEvade: 5
+        percentCounter: 5
+        timeMove: 3
+        percentDash: 30
+        percentHoldDash: 50
+        dashTime: 4
+      outRange:
+        chase: 80
+        percentChaseUser: 40
+        percentChaseOtherEnemy: 80
+        timeChase: 3
+        moveSpeed: 100
+        timeMove: 3
+        dashSpeed: 50
+        percentHoldDash: 20
+        timeDash: 5
+        percentAttack: 20
+        timeAttack: 3
+  - id: 21
+    fishType: 20
+    fishAIData:
+      inRange:
+        attack: 15
+        percentAttackUser: 80
+        percentAttackOtherEnemy: 20
+        percentEat: 10
+        time: 3
+        moveSpeed: 85
+        percentEvade: 10
+        percentCounter: 5
+        timeMove: 6
+        percentDash: 40
+        percentHoldDash: 5
+        dashTime: 2
+      outRange:
+        chase: 30
+        percentChaseUser: 20
+        percentChaseOtherEnemy: 50
+        timeChase: 4
+        moveSpeed: 45
+        timeMove: 4
+        dashSpeed: 5
+        percentHoldDash: 60
+        timeDash: 1
+        percentAttack: 35
+        timeAttack: 2
+  - id: 22
+    fishType: 21
+    fishAIData:
+      inRange:
+        attack: 50
+        percentAttackUser: 15
+        percentAttackOtherEnemy: 60
+        percentEat: 60
+        time: 2
+        moveSpeed: 80
+        percentEvade: 40
+        percentCounter: 10
+        timeMove: 2
+        percentDash: 70
+        percentHoldDash: 30
+        dashTime: 5
+      outRange:
+        chase: 20
+        percentChaseUser: 70
+        percentChaseOtherEnemy: 15
+        timeChase: 6
+        moveSpeed: 65
+        timeMove: 2
+        dashSpeed: 10
+        percentHoldDash: 40
+        timeDash: 3
+        percentAttack: 20
+        timeAttack: 4
+  - id: 23
+    fishType: 22
+    fishAIData:
+      inRange:
+        attack: 55
+        percentAttackUser: 30
+        percentAttackOtherEnemy: 100
+        percentEat: 80
+        time: 8
+        moveSpeed: 60
+        percentEvade: 80
+        percentCounter: 45
+        timeMove: 3
+        percentDash: 40
+        percentHoldDash: 10
+        dashTime: 4
+      outRange:
+        chase: 100
+        percentChaseUser: 50
+        percentChaseOtherEnemy: 50
+        timeChase: 5
+        moveSpeed: 30
+        timeMove: 2
+        dashSpeed: 15
+        percentHoldDash: 60
+        timeDash: 4
+        percentAttack: 35
+        timeAttack: 5
+  - id: 24
+    fishType: 23
+    fishAIData:
+      inRange:
+        attack: 65
+        percentAttackUser: 70
+        percentAttackOtherEnemy: 60
+        percentEat: 65
+        time: 5
+        moveSpeed: 20
+        percentEvade: 5
+        percentCounter: 30
+        timeMove: 5
+        percentDash: 90
+        percentHoldDash: 80
+        dashTime: 5
+      outRange:
+        chase: 80
+        percentChaseUser: 90
+        percentChaseOtherEnemy: 30
+        timeChase: 7
+        moveSpeed: 40
+        timeMove: 3
+        dashSpeed: 30
+        percentHoldDash: 85
+        timeDash: 2
+        percentAttack: 80
+        timeAttack: 3
+  - id: 25
+    fishType: 24
+    fishAIData:
+      inRange:
+        attack: 70
+        percentAttackUser: 100
+        percentAttackOtherEnemy: 20
+        percentEat: 80
+        time: 7
+        moveSpeed: 30
+        percentEvade: 45
+        percentCounter: 50
+        timeMove: 6
+        percentDash: 70
+        percentHoldDash: 70
+        dashTime: 3
+      outRange:
+        chase: 120
+        percentChaseUser: 70
+        percentChaseOtherEnemy: 40
+        timeChase: 6
+        moveSpeed: 65
+        timeMove: 5
+        dashSpeed: 60
+        percentHoldDash: 100
+        timeDash: 3
+        percentAttack: 90
+        timeAttack: 6
+  - id: 26
+    fishType: 25
+    fishAIData:
+      inRange:
+        attack: 90
+        percentAttackUser: 85
+        percentAttackOtherEnemy: 15
+        percentEat: 70
+        time: 9
+        moveSpeed: 60
+        percentEvade: 80
+        percentCounter: 5
+        timeMove: 7
+        percentDash: 40
+        percentHoldDash: 60
+        dashTime: 3
+      outRange:
+        chase: 60
+        percentChaseUser: 100
+        percentChaseOtherEnemy: 0
+        timeChase: 10
+        moveSpeed: 75
+        timeMove: 2
+        dashSpeed: 10
+        percentHoldDash: 45
+        timeDash: 5
+        percentAttack: 40
+        timeAttack: 10
+  - id: 27
+    fishType: 26
+    fishAIData:
+      inRange:
+        attack: 95
+        percentAttackUser: 65
+        percentAttackOtherEnemy: 35
+        percentEat: 90
+        time: 6
+        moveSpeed: 45
+        percentEvade: 15
+        percentCounter: 80
+        timeMove: 10
+        percentDash: 30
+        percentHoldDash: 100
+        dashTime: 5
+      outRange:
+        chase: 80
+        percentChaseUser: 30
+        percentChaseOtherEnemy: 100
+        timeChase: 5
+        moveSpeed: 55
+        timeMove: 5
+        dashSpeed: 60
+        percentHoldDash: 80
+        timeDash: 4
+        percentAttack: 90
+        timeAttack: 5
+  - id: 28
+    fishType: 27
+    fishAIData:
+      inRange:
+        attack: 120
+        percentAttackUser: 120
+        percentAttackOtherEnemy: 90
+        percentEat: 90
+        time: 10
+        moveSpeed: 50
+        percentEvade: 90
+        percentCounter: 30
+        timeMove: 5
+        percentDash: 50
+        percentHoldDash: 100
+        dashTime: 3
+      outRange:
+        chase: 120
+        percentChaseUser: 40
+        percentChaseOtherEnemy: 60
+        timeChase: 9
+        moveSpeed: 40
+        timeMove: 3
+        dashSpeed: 70
+        percentHoldDash: 60
+        timeDash: 5
+        percentAttack: 100
+        timeAttack: 6
+  - id: 29
+    fishType: 28
+    fishAIData:
+      inRange:
+        attack: 140
+        percentAttackUser: 100
+        percentAttackOtherEnemy: 70
+        percentEat: 70
+        time: 6
+        moveSpeed: 70
+        percentEvade: 5
+        percentCounter: 50
+        timeMove: 3
+        percentDash: 70
+        percentHoldDash: 70
+        dashTime: 4
+      outRange:
+        chase: 90
+        percentChaseUser: 100
+        percentChaseOtherEnemy: 0
+        timeChase: 6
+        moveSpeed: 40
+        timeMove: 5
+        dashSpeed: 40
+        percentHoldDash: 70
+        timeDash: 2
+        percentAttack: 70
+        timeAttack: 8
+  - id: 30
+    fishType: 29
+    fishAIData:
+      inRange:
+        attack: 160
+        percentAttackUser: 80
+        percentAttackOtherEnemy: 20
+        percentEat: 40
+        time: 5
+        moveSpeed: 80
+        percentEvade: 100
+        percentCounter: 85
+        timeMove: 7
+        percentDash: 60
+        percentHoldDash: 40
+        dashTime: 5
+      outRange:
+        chase: 160
+        percentChaseUser: 80
+        percentChaseOtherEnemy: 20
+        timeChase: 5
+        moveSpeed: 30
+        timeMove: 2
+        dashSpeed: 60
+        percentHoldDash: 80
+        timeDash: 5
+        percentAttack: 90
+        timeAttack: 5

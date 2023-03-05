@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067fa9d0576f70343add528f079766e0, type: 3}
+  m_Name: WeaponDatabase
+  m_EditorClassIdentifier: 
+  weaponObjectDatas:
+  - id: 1
+    weaponType: 0
+    weaponPrefabs: {fileID: 3258448891742594010, guid: b04c200ae5e8ab54b8f6ac93ddb63107, type: 3}
+    icon: {fileID: 21300000, guid: 0c18a4ad3e4e6cd4ab892189313d2dd3, type: 3}
+    des: 
+  - id: 2
+    weaponType: 1
+    weaponPrefabs: {fileID: 5272116607767724016, guid: ca9139b7723c12649a7a5dc9e2e5f605, type: 3}
+    icon: {fileID: 21300000, guid: 0c1b4f2febfa9aa4d91ad760b4c1135a, type: 3}
+    des: 
+  - id: 3
+    weaponType: 2
+    weaponPrefabs: {fileID: 7082118064768444056, guid: 6a402e8710788b44eb77fc8477eba682, type: 3}
+    icon: {fileID: 21300000, guid: 4d1a1be5f1b71c34ca4b0df16f431801, type: 3}
+    des: 
+  - id: 4
+    weaponType: 3
+    weaponPrefabs: {fileID: 8848935300127073430, guid: 057d83b12f6972a478b63ab13834d24b, type: 3}
+    icon: {fileID: 21300000, guid: 3a998ade3cfbc954aa211764918b6bd7, type: 3}
+    des: 
+  - id: 5
+    weaponType: 4
+    weaponPrefabs: {fileID: 3376803981862108533, guid: 36ad9af8e4c08e84086e3e04df1f40ff, type: 3}
+    icon: {fileID: 21300000, guid: afd825409ed3cc147a6d50e4994cb935, type: 3}
+    des: 
+  - id: 6
+    weaponType: 5
+    weaponPrefabs: {fileID: 3735697430328570524, guid: 5ba7f4ab3b5e6b749bcd555199c5935e, type: 3}
+    icon: {fileID: 21300000, guid: 9614e0165d01e5d43afe7f00a010769d, type: 3}
+    des: 
+  - id: 7
+    weaponType: 6
+    weaponPrefabs: {fileID: 4880527614098258446, guid: 59c494a22bfc75f40adb2f11e21f1706, type: 3}
+    icon: {fileID: 21300000, guid: 4784d456783c73f48897548fd4f8e52b, type: 3}
+    des: 
+  - id: 8
+    weaponType: 7
+    weaponPrefabs: {fileID: 5364720110103134321, guid: 0c1783e945c632848981c77b0fa03d9d, type: 3}
+    icon: {fileID: 21300000, guid: ec8bf22c62282db488cf7667f3990e54, type: 3}
+    des: 
+  - id: 9
+    weaponType: 8
+    weaponPrefabs: {fileID: 5466825290772847863, guid: 88d8165c19bf88f46b4495c6cd23397f, type: 3}
+    icon: {fileID: 21300000, guid: 5355f5afeb1a4ec4aa815282b602c3c4, type: 3}
+    des: 
+  - id: 10
+    weaponType: 9
+    weaponPrefabs: {fileID: 6292618187802518097, guid: edeee2f34ce44684ea1b7189295c99ff, type: 3}
+    icon: {fileID: 21300000, guid: 742c4e24b42a91e48abb09baf7bfb028, type: 3}
+    des: 
